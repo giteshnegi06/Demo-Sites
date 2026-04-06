@@ -17,7 +17,7 @@ export default function Gallery() {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4">Our Happy Moments</h2>
           <p className="text-primary/60 max-w-2xl mx-auto text-lg">
-            A glimpse into the life at Harish Tinku Kennel and our beautiful Labradors.
+            A glimpse into the life at Harish Tinku Kennel and our beautiful Dogs.
           </p>
         </div>
 
@@ -38,7 +38,7 @@ export default function Gallery() {
               />
               <div className="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
                 <div className="w-12 h-12 bg-bg/90 rounded-full flex items-center justify-center text-primary">
-                  <span className="text-2xl">+</span>
+                  {/* <span className="text-2xl">+</span> */}
                 </div>
               </div>
             </motion.div>
