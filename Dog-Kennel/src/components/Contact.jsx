@@ -12,7 +12,7 @@ export default function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
     const text = `Name: ${formData.name}%0APhone: ${formData.phone}%0AMessage: ${formData.message}`;
-    window.open(`https://wa.me/919729124918?text=${text}`, '_blank');
+    window.open(`https://wa.me/+919729124918?text=${text}`, '_blank');
   };
 
   return (
@@ -35,7 +35,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-sm text-bg/60 uppercase tracking-wider font-bold">Call Us</p>
-                  <p className="text-xl font-bold">097291 24918</p>
+                  <p className="text-xl font-bold">+91 97291 24918</p>
                 </div>
               </div>
               

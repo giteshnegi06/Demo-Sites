@@ -88,7 +88,7 @@ export default function Navbar() {
                 </a>
               ))}
               <a
-                href="tel:09729124918"
+                href="tel:+919729124918"
                 className="bg-primary text-bg text-center py-3 rounded-full font-bold mt-2"
               >
                 Call Now
