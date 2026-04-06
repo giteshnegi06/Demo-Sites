@@ -46,13 +46,13 @@ export default function Footer() {
                         <h4 className="font-bold text-primary text-xl mb-6">Contact Info</h4>
                         <ul className="space-y-4">
                             <li className="text-primary/60">Kurukashatra, Haryana, India</li>
-                            <li className="text-primary/60 font-bold">097291 24918</li>
+                            <li className="text-primary/60 font-bold">97291 24918</li>
                             <li className="text-primary/60">giteshneg5@gmail.com</li>
                         </ul>
                     </div>
                 </div>
 
-                <div className="pt-8 border-t border-accent/30 flex flex-col md:row justify-between items-center gap-4">
+                <div className="pt-8 border-t border-accent/30 flex flex-col md:flex-row  justify-between items-center gap-4">
                     <p className="text-primary/50 text-sm">
                         © {new Date().getFullYear()} Harish Tinku Dog Kennel. All rights reserved.
                     </p>

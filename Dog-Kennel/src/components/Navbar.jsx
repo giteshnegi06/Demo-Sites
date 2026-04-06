@@ -24,7 +24,7 @@ export default function Navbar() {
   return (
     <nav
       className={cn(
-        'fixed top-0 left-0 right-0 z-50 transition-all duration-300 px-6 py-4',
+        'fixed top-0 left-0 right-0 z-50 transition-all duration-300 px-4 md:px-6 py-4',
         scrolled ? 'bg-bg/80 backdrop-blur-md shadow-soft py-3' : 'bg-transparent'
       )}
     >
@@ -33,7 +33,7 @@ export default function Navbar() {
           <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center text-bg group-hover:rotate-12 transition-transform">
             <Dog size={24} />
           </div>
-          <span className="font-heading text-xl font-bold tracking-tight text-primary">
+          <span className="font-heading text-lg md:text-xl lg:text-2xl font-bold tracking-tight text-primary">
             Harish Tinku <span className="text-secondary">Kennel</span>
           </span>
         </a>
