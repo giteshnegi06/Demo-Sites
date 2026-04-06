@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Nunito:wght@400;500;600;700&family=Quicksand:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-heading: "Fraunces", serif;
+  --font-sans: "Nunito", "Quicksand", sans-serif;
+
+  --color-bg: #FDFCF8;
+  --color-primary: #5D7052;
+  --color-secondary: #C18C5D;
+  --color-accent: #E6DCCD;
+  
+  --shadow-soft: 0 10px 30px -10px rgba(93, 112, 82, 0.1);
+}
+
+@layer base {
+  body {
+    @apply bg-bg text-primary font-sans antialiased;
+    background-image: url("https://www.transparenttextures.com/patterns/natural-paper.png");
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading;
+  }
+}
+
+.organic-blob {
+  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+}
+
+.organic-blob-alt {
+  border-radius: 30% 70% 70% 30% / 50% 60% 40% 50%;
+}
+
+.grainy-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0.03;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+}
