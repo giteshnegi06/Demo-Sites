@@ -17,7 +17,7 @@ export default function Footer() {
                             </span>
                         </a>
                         <p className="text-primary/60 max-w-sm mb-8 leading-relaxed">
-                            Premium multi-breed dog breeder in Kurukashatra. We are dedicated to raising healthy, happy, and pure breed puppies that bring joy to every home.
+                            Premium multi-breed dog breeder in Karnal, Haryana. We are dedicated to raising healthy, happy, and pure breed puppies that bring joy to every home.
                         </p>
                         <div className="flex gap-4">
                             <a href="#" className="w-10 h-10 bg-accent rounded-full flex items-center justify-center text-primary hover:bg-secondary hover:text-bg transition-all">
