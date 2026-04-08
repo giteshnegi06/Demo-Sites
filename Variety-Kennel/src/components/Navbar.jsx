@@ -34,7 +34,7 @@ export default function Navbar() {
             <Dog size={24} />
           </div>
           <span className="font-heading text-lg md:text-xl lg:text-2xl font-bold tracking-tight text-primary">
-            Variety <span className="text-secondary">Kennel</span>
+            PROCH <span className="text-secondary">Kennel</span>
           </span>
         </a>
 

@@ -24,7 +24,7 @@ export default function Hero() {
             <span className="text-secondary">Puppies</span> 🐶
           </h1>
           <p className="text-lg md:text-xl text-primary/70 mb-10 max-w-lg leading-relaxed">
-            Raised with love, care, and quality assurance. Find your perfect furry companion at Variety Kennel.
+            Raised with love, care, and quality assurance. Find your perfect furry companion at PROCH Kennel.
           </p>
           
           <div className="flex flex-wrap gap-4">
