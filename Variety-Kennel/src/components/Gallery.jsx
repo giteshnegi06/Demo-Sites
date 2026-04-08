@@ -17,7 +17,7 @@ export default function Gallery() {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4">Our Happy Moments</h2>
           <p className="text-primary/60 max-w-2xl mx-auto text-lg">
-            A glimpse into the life at Variety Kennel and our beautiful Dogs.
+            A glimpse into the life at PROCH Kennel and our beautiful Dogs.
           </p>
         </div>
 

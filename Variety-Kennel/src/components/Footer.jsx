@@ -13,7 +13,7 @@ export default function Footer() {
                                 <GiDogHouse size={24} />
                             </div>
                             <span className="font-heading text-2xl font-bold text-primary">
-                                Variety <span className="text-secondary">Kennel</span>
+                                PROCH <span className="text-secondary">Kennel</span>
                             </span>
                         </a>
                         <p className="text-primary/60 max-w-sm mb-8 leading-relaxed">
